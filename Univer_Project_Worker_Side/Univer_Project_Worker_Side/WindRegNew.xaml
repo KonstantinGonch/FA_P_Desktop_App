@@ -1,0 +1,43 @@
+﻿<Window x:Class="Univer_Project_Worker_Side.WindRegNew"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Univer_Project_Worker_Side"
+        mc:Ignorable="d"
+        Title="Регистрация Новой Заявки" Height="491.797" Width="813.281"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        >
+    <Window.Background>
+        <ImageBrush ImageSource="Data/Graphics/back.png"/>
+    </Window.Background>
+    <StackPanel>
+        <Label Content="Регистрация Новой Заявки" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" FontFamily="Shonar Bangla" Foreground="White">
+            
+        </Label>
+        <Label Content="Код подразделения (6 цифр): " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Shonar Bangla" FontSize="24">
+            
+        </Label>
+        <TextBox Name="tb1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="XXXXXX" FontSize="21.333" Background="#7FFFFFFF" Foreground="Black"/>
+        <Label Content="Год (2 цифры): " Margin ="10" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Shonar Bangla" FontSize="24">
+            
+        </Label>
+        <TextBox Name="tb2" Text="XX" Background="#7FFFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="21.333"></TextBox>
+        <Label Content="Порядковый номер (5 цифр): " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Foreground="White">
+            
+        </Label>
+        <TextBox Name="tb3" Text="XXXXX" Background="#7FFFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="21.333"></TextBox>
+        <Button Name="btnConfirm" Content="Подтвердить" Margin="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Click="btnConfirm_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#00CDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+
+        </Button>
+    </StackPanel>
+</Window>

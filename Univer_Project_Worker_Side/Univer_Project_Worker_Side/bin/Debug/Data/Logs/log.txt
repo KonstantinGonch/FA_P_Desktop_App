@@ -1,0 +1,11 @@
+﻿
+			Occured On 22.02.2017 18:33:25 inIn entering system
+Message : Удаленный сервер возвратил ошибку: (404) Не найден.
+Source : System
+StackTrace :    в System.Net.HttpWebRequest.GetResponse()
+   в Univer_Project_Worker_Side.Processor.Enter(String login, String password) в C:\Users\JohnCena\Desktop\Coding\C#\Univer_Project_Worker_Side\Univer_Project_Worker_Side\Processor.cs:строка 158
+			Occured On 25.03.2017 19:24:14 inIn entering system
+Message : Удаленный сервер возвратил ошибку: (404) Не найден.
+Source : System
+StackTrace :    в System.Net.HttpWebRequest.GetResponse()
+   в Univer_Project_Worker_Side.Processor.Enter(String login, String password) в C:\Users\JohnCena\Desktop\Coding\C#\Univer_Project_Worker_Side\Univer_Project_Worker_Side\Processor.cs:строка 158
